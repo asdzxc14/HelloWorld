@@ -19,7 +19,8 @@
 | [xuyuanchao95@163.com]()    | 131****5845    |
 
 -----------------------------------
-<img src="http://img1.juimg.com/151002/330725-15100205201173.jpg" width="50%" height="50%" />
+<img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1474275032&di=bb124f7d8cd6b5ad51a4ef3df6e6aba4&src=http://pic75.nipic.com/file/20150818/21611164_132743904409_2.jpg" width="30%" height="30%" />
+
 
 
 
