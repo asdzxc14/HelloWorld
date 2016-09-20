@@ -1,5 +1,9 @@
-var n : number = 8;
+function get(): number {
+    var n : number = 15;
+    return n;
+}
 
+var x :number = get();
 function print(n : number):void {
     var i:number =0;
     var j:number =0;
@@ -15,4 +19,4 @@ function print(n : number):void {
         console.log(s);
     }
 }
-print(n);
+print(x);

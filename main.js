@@ -1,4 +1,8 @@
-var n = 8;
+function get() {
+    var n = 15;
+    return n;
+}
+var x = get();
 function print(n) {
     var i = 0;
     var j = 0;
@@ -14,4 +18,4 @@ function print(n) {
         console.log(s);
     }
 }
-print(n);
+print(x);
