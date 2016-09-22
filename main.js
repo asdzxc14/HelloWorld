@@ -1,21 +1,18 @@
-function get() {
-    var n = 15;
-    return n;
-}
-var x = get();
-function print(n) {
-    var i = 0;
-    var j = 0;
-    var s = "";
-    for (i = 1; i <= n; i++) {
-        s = "";
-        for (j = 0; j < n - i; j++) {
-            s += " ";
+function pyramid(LineNumber) {
+    var CurrentLine = 0;
+    var spaceCount = 0;
+    var starCount = 0;
+    var LineString = "";
+    for (CurrentLine = 1; CurrentLine <= LineNumber; CurrentLine++) {
+        LineString = "";
+        for (spaceCount = 0; spaceCount < LineNumber - CurrentLine; spaceCount++) {
+            LineString += " ";
         }
-        for (j = 0; j < 2 * i - 1; j++) {
-            s += "*";
+        for (starCount = 0; starCount < 2 * CurrentLine - 1; starCount++) {
+            LineString += "*";
         }
-        console.log(s);
+        console.log(LineString);
     }
 }
-print(x);
+var lineCount = process.argv[2];
+pyramid(parseInt(lineCount));
